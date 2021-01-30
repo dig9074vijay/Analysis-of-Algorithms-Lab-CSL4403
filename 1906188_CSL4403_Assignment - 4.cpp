@@ -1,4 +1,4 @@
-﻿Design and Analysis of Algorithms Laboratory
+/*﻿Design and Analysis of Algorithms Laboratory
 
 
 Name : Digvijay Srivastava
@@ -8,10 +8,10 @@ Course Code : CSL4403
 25th January 2021
 
 
-Lab - 4
+Lab - 4*/
 
 
-1. Write a program to solve Knapsack problem using Greedy method.
+//1. Write a program to solve Knapsack problem using Greedy method.
 
 
 
@@ -97,12 +97,3 @@ int main() {
 }
 
 
-
-
-
-
-
-
-
-
-Output
