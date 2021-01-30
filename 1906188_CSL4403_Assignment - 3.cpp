@@ -1,4 +1,4 @@
-﻿Design and Analysis of Algorithms Laboratory
+﻿/*Design and Analysis of Algorithms Laboratory
 
 
 Name : Digvijay Srivastava
@@ -8,10 +8,10 @@ Course Code : CSL4403
 18th January 2021
 
 
-Lab - 3
+Lab - 3 */
 
 
-1. Write a program to implement Merge sort algorithm. 
+//1. Write a program to implement Merge sort algorithm. 
 
 
 
@@ -123,4 +123,3 @@ int main()
 }
 
 
-Output
