@@ -1,4 +1,4 @@
-﻿Design and Analysis of Algorithms Laboratory
+/*﻿Design and Analysis of Algorithms Laboratory
 
 
 Name : Digvijay Srivastava
@@ -8,10 +8,10 @@ Course Code : CSL4403
 4th January 2021
 
 
-Lab - 1
+Lab - 1. */
 
 
-1. Find maximum and minimum element in an array using Divide and Conquer Technique.
+//1. Find maximum and minimum element in an array using Divide and Conquer Technique.
 
 
 //Divide & Conquer technique
@@ -74,9 +74,3 @@ int main() //Driver of the program
     return 0;
 }
 
-
-
-
-
-
-Output
