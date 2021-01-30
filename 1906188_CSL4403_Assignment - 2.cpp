@@ -1,4 +1,4 @@
-﻿Design and Analysis of Algorithms Laboratory
+/*﻿Design and Analysis of Algorithms Laboratory
 
 
 Name : Digvijay Srivastava
@@ -11,7 +11,7 @@ Course Code : CSL4403
 Lab - 2
 
 
-1. Write a program to implement Quick sort algorithm. 
+1. Write a program to implement Quick sort algorithm.  */
 
 
 
@@ -98,10 +98,10 @@ int main()
 
 
 
-Output
+//Output
   
 
-2. Write a program to implement Binary Search.
+//2. Write a program to implement Binary Search.
 
 
 //Program to implement Binary search
@@ -217,19 +217,3 @@ int Binary_Search(int *p, int l, int h, int s)
     return -1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Output
