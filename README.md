@@ -8,3 +8,4 @@ Contains the record files of CSL4403 Lab
 - Lab - 3 [Merge Sort](https://onlinegdb.com/5DldQJASg)  
 - Lab - 4 [Fractional Knapsack](https://onlinegdb.com/-iykyFUQD)
 - Lab - 5 [Job sequencing with deadlines](https://onlinegdb.com/SkGwtBrxd)
+- Lab - 6 [Prim's Algorithm](https://onlinegdb.com/-2NdcvACb)
