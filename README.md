@@ -12,3 +12,4 @@ Contains the record files of CSL4403 Lab
 - Lab - 7 [Dijkstra's Algorithm](https://onlinegdb.com/Skmhm3wZO)
 - Lab - 8 [Floyd Warshall's Algorithm](https://onlinegdb.com/BJgxseZf_)
 - Lab - 9 [Bellman Ford's Algorithm](https://onlinegdb.com/LTD74WqyO)
+- Lab - 10 [1/0 Knapsack Algorithm](https://onlinegdb.com/HkN34s3md)
