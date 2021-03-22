@@ -1,0 +1,90 @@
+//C program to solve N Queen Problem using backtracking
+// Digvijay Srivastava (1906188)
+
+#include <stdbool.h> 
+#include <stdio.h> 
+#define N 4 
+
+void reverse(int board[][N]){
+    for (int i = 0; i < N; i++) {
+	        int low = 0, high = N-1;
+			while(low<high){
+			    board[i][low] ^= board[i][high];
+			    board[i][high] ^= board[i][low];
+			    board[i][low] ^= board[i][high];
+			    low++;
+			    high--;
+			}
+	}   
+}
+
+void printSolution(int board[N][N]) 
+{ 
+	for (int i = 0; i < N; i++) { 
+		for (int j = 0; j < N; j++) 
+			printf(" %d ", board[i][j]); 
+		printf("\n"); 
+	} 
+} 
+
+bool Place(int board[N][N], int row, int col) 
+{ 
+	int i, j; 
+
+	for (i = 0; i < col; i++) 
+		if (board[row][i]) 
+			return false; 
+
+	for (i = row, j = col; i >= 0 && j >= 0; i--, j--) 
+		if (board[i][j]) 
+			return false; 
+
+	for (i = row, j = col; j >= 0 && i < N; i++, j--) 
+		if (board[i][j]) 
+			return false; 
+
+	return true; 
+} 
+
+bool NQueen(int board[N][N], int col) 
+{ 
+	if (col >= N) 
+		return true; 
+
+	for (int i = 0; i < N; i++) { 
+	    
+		if (Place(board, i, col)) { 
+		    
+			board[i][col] = 1; 
+
+			if (NQueen(board, col + 1)) 
+				return true; 
+				
+			board[i][col] = 0; 
+		} 
+	} 
+
+	return false; 
+} 
+
+
+
+int main() 
+{ 
+    printf("N(N=4) Queen Problem using backtracking\n");
+	int board[N][N] = { { 0, 0, 0, 0 }, 
+						{ 0, 0, 0, 0 }, 
+						{ 0, 0, 0, 0 }, 
+						{ 0, 0, 0, 0 } }; 
+						
+
+	if (NQueen(board, 0) == false) { 
+		printf("Solution does not exist"); 
+	} 
+    printf("4 Queens can be placed in the following ways : \n");
+	printSolution(board);
+	reverse(board);
+	printf("\n");
+	printSolution(board);
+	return 0; 
+} 
